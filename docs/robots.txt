@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maxgier2026-cmyk.github.io/ai-classroom-supply-toolkit/sitemap.xml
