@@ -74,3 +74,7 @@ This is Venture 01 in a supervised charity income-generation experiment. All net
 **Verified revenue: $0** — no payment channel verified yet. This repo is a public proof/delivery surface, not a completed sale.
 
 [View full status →](proof/VENTURE_STATUS.md)
+
+## See also
+
+- [Same-Day AI Microservice Menu](https://github.com/maxgier2026-cmyk/same-day-ai-microservice-menu) — Venture 02: resume help, marketplace listings, business AI audits, same-day delivery.

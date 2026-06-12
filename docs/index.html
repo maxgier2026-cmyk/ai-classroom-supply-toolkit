@@ -75,6 +75,33 @@
   </div>
 
   <div class="card">
+    <h2>🧮 Interactive Classroom Supply Budget Calculator</h2>
+    <p style="margin-bottom:1rem;">Add your supply items, quantities, and estimated costs. Enter your class size to see per-student cost. <strong>Works offline — nothing leaves your browser.</strong></p>
+    <div style="margin-bottom:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
+      <div><label style="font-weight:600;font-size:0.9rem;">Item name</label><br><input type="text" id="itemName" placeholder="e.g. Pencils" style="padding:0.4rem;border:1px solid var(--border);border-radius:6px;width:160px;"></div>
+      <div><label style="font-weight:600;font-size:0.9rem;">Quantity</label><br><input type="number" id="itemQty" placeholder="30" min="1" value="1" style="padding:0.4rem;border:1px solid var(--border);border-radius:6px;width:80px;"></div>
+      <div><label style="font-weight:600;font-size:0.9rem;">Unit price ($)</label><br><input type="number" id="itemPrice" placeholder="1.50" min="0" step="0.01" value="0.00" style="padding:0.4rem;border:1px solid var(--border);border-radius:6px;width:100px;"></div>
+      <div style="display:flex;align-items:flex-end;"><button onclick="addItem()" style="background:var(--primary);color:#fff;border:none;padding:0.45rem 1rem;border-radius:6px;cursor:pointer;font-weight:600;">+ Add</button></div>
+    </div>
+    <table id="calcTable" style="margin-bottom:0.5rem;">
+      <tr><th>Item</th><th style="text-align:right;">Qty</th><th style="text-align:right;">Unit $</th><th style="text-align:right;">Line Total</th><th></th></tr>
+    </table>
+    <p style="font-size:0.85rem;color:var(--muted);" id="emptyMsg">No items yet. Add supplies above to calculate your total.</p>
+    <div style="margin:0.75rem 0;">
+      <label style="font-weight:600;font-size:0.9rem;">Class size (students): </label>
+      <input type="number" id="classSize" placeholder="25" min="0" value="0" onchange="updateTotals()" style="padding:0.4rem;border:1px solid var(--border);border-radius:6px;width:80px;">
+      <span style="margin-left:1.5rem;font-size:0.9rem;" id="perStudent"></span>
+    </div>
+    <div style="background:#f1f5f9;padding:0.75rem 1rem;border-radius:8px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+      <span style="font-size:1.1rem;"><strong>Total Estimated Cost:</strong> <span id="grandTotal" style="color:var(--primary);font-size:1.3rem;">$0.00</span></span>
+      <span>
+        <button onclick="resetCalc()" style="background:#e2e8f0;border:none;padding:0.4rem 0.8rem;border-radius:6px;cursor:pointer;margin-right:0.5rem;">Reset</button>
+        <button onclick="window.print()" style="background:var(--primary);color:#fff;border:none;padding:0.4rem 0.8rem;border-radius:6px;cursor:pointer;">🖨️ Print</button>
+      </span>
+    </div>
+  </div>
+
+  <div class="card">
     <h2>🔒 Boundaries</h2>
     <p>✅ OK: Real classroom/school needs you're authorized to discuss. Honest, specific requests with clear follow-up.</p>
     <p style="color:#dc2626;">❌ NOT OK: Fake fundraisers. Nonprofit impersonation. Spam. Fake urgency. Student personal info.</p>
@@ -84,7 +111,16 @@
   <footer>
     <p>Venture 01 · <a href="https://github.com/maxgier2026-cmyk/ai-classroom-supply-toolkit">GitHub Repo</a> · <a href="https://github.com/maxgier2026-cmyk/ai-classroom-supply-toolkit/blob/main/proof/VENTURE_STATUS.md">Status</a> · MIT License</p>
     <p>Charity income experiment — all net proceeds to school supplies for children in need.</p>
+    <p style="margin-top:0.5rem;font-size:0.85rem;">⚡ Also see: <a href="https://maxgier2026-cmyk.github.io/same-day-ai-microservice-menu/">Same-Day AI Microservice Menu</a> (Venture 02) — resume help, listings, business audits.</p>
   </footer>
 </div>
+<script>
+  let items = [];
+  function addItem() { const n=document.getElementById('itemName').value.trim(); const q=parseInt(document.getElementById('itemQty').value)||1; const p=parseFloat(document.getElementById('itemPrice').value)||0; if(!n||q<1){return;} items.push({name:n,qty:q,price:p}); renderItems(); updateTotals(); document.getElementById('itemName').value=''; document.getElementById('itemQty').value='1'; document.getElementById('itemPrice').value='0.00'; document.getElementById('itemName').focus(); }
+  function removeItem(i) { items.splice(i,1); renderItems(); updateTotals(); }
+  function renderItems() { const t=document.getElementById('calcTable'); const rows=t.querySelectorAll('tr:not(:first-child)'); rows.forEach(r=>r.remove()); const m=document.getElementById('emptyMsg'); items.forEach((it,i)=>{ const tr=document.createElement('tr'); tr.innerHTML='<td>'+it.name.replace(/</g,'&lt;')+'</td><td style="text-align:right;">'+it.qty+'</td><td style="text-align:right;">$'+it.price.toFixed(2)+'</td><td style="text-align:right;">$'+(it.qty*it.price).toFixed(2)+'</td><td><button onclick="removeItem('+i+')" style="background:none;border:none;cursor:pointer;color:#dc2626;font-size:1.1rem;">✕</button></td>'; t.appendChild(tr); }); m.style.display=items.length?'none':''; }
+  function updateTotals() { const total=items.reduce((s,it)=>s+(it.qty*it.price),0); document.getElementById('grandTotal').textContent='$'+total.toFixed(2); const cs=parseInt(document.getElementById('classSize').value)||0; const ps=document.getElementById('perStudent'); ps.textContent=cs>0?'≈ $'+(total/cs).toFixed(2)+' per student':''; }
+  function resetCalc() { items=[]; renderItems(); updateTotals(); document.getElementById('classSize').value='0'; document.getElementById('perStudent').textContent=''; document.getElementById('emptyMsg').style.display=''; }
+</script>
 </body>
 </html>
