@@ -22,11 +22,13 @@ Most classroom supply requests are vague, disorganized, or use pressure tactics.
 
 | File | What you get |
 |---|---|
+| `START_HERE.md` | 30-minute route for creating an authorized, trackable classroom supply support plan |
 | `product/AI_CLASSROOM_SUPPLY_TOOLKIT.md` | Complete toolkit: 5 message templates, budget worksheet, outreach tracker, compliance checklist |
 | `product/LISTING_DRAFT.md` | Marketplace/listing copy if you want to offer this as a paid product |
 | `product/SAME_DAY_SERVICE_OFFER.md` | Custom-service pricing ladder for personalized campaign kits |
 | `proof/VENTURE_STATUS.md` | Experiment status, fair-test timeline, and revenue tracker |
 | `toolkit/donor-email-sequence.md` | Ready-to-adapt 5-email sequence for warm donors, sponsors, PTO coordination, follow-up, and thank-you updates |
+| `toolkit/printable-one-page-drive-plan.md` | Printable one-page classroom supply drive plan and tracker |
 
 ## Quick peek at the templates
 
@@ -40,11 +42,12 @@ Plus: budget worksheet, outreach tracker, and a compliance self-check so you sta
 
 ## How to use it
 
-1. Read `product/AI_CLASSROOM_SUPPLY_TOOLKIT.md`
-2. Fill in your specific supply need, quantities, and authorized wishlist link
-3. Adapt the template that fits your audience
-4. Track responses in the included tracker table
-5. Send thank-you notes and keep updates privacy-safe
+1. Start with `START_HERE.md` for the 30-minute route
+2. Read `product/AI_CLASSROOM_SUPPLY_TOOLKIT.md`
+3. Fill in your specific supply need, quantities, and authorized wishlist link
+4. Adapt the template that fits your audience
+5. Track responses in the included tracker table
+6. Send thank-you notes and keep updates privacy-safe
 
 ## Customization services (same-day delivery)
 
