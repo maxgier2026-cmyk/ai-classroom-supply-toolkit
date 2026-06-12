@@ -1,13 +1,15 @@
 # Venture 01 Status
 
-Timestamp: 2026-06-12T03:17:01-05:00
+Timestamp: 2026-06-12T05:14:23-05:00
 Venture: AI Classroom Supply Donor Outreach + Teacher Wishlist Toolkit
 State: TESTING
 Published exposure start: 2026-06-11T23:44:42-05:00
-Elapsed time: ~3 hours 33 minutes
-Fair-test deadline: 2026-06-13T23:44:42-05:00 (48h minimum from launch; ~44h remaining)
+Elapsed time: ~5 hours 30 minutes
+Fair-test deadline: 2026-06-13T23:44:42-05:00 (48h minimum from launch; ~42h remaining)
 Public repo: https://github.com/maxgier2026-cmyk/ai-classroom-supply-toolkit
-GitHub Pages: https://maxgier2026-cmyk.github.io/ai-classroom-supply-toolkit/ (HTTP 200, verified 2026-06-12T07:40 UTC)
+GitHub Pages: https://maxgier2026-cmyk.github.io/ai-classroom-supply-toolkit/ (HTTP 200, verified 2026-06-12T10:14 UTC)
+GitHub Discussions: ENABLED (2026-06-12T08:40 UTC) — https://github.com/maxgier2026-cmyk/ai-classroom-supply-toolkit/discussions
+GitHub Profile: https://github.com/maxgier2026-cmyk (profile README links both ventures, created 2026-06-12T09:35 UTC)
 
 ## Iteration 1 (2026-06-12T00:20:00-05:00)
 
@@ -60,7 +62,28 @@ GitHub Pages: https://maxgier2026-cmyk.github.io/ai-classroom-supply-toolkit/ (H
 - Updated GitHub Pages "What You Get" section and footer with new links.
 - Pushed commit 4662391
 
-## Current GitHub traction (verified 2026-06-12T08:17 UTC)
+## Iteration 8 (2026-06-12T03:40:07-05:00)
+
+- Enabled GitHub Discussions on repo — buyer/inquiry surface without requiring a separate platform
+- Discussions URL: https://github.com/maxgier2026-cmyk/ai-classroom-supply-toolkit/discussions
+- Also enabled Discussions on Venture 02 repo
+
+## Iteration 9 (2026-06-12T04:42:00-05:00)
+
+- Created GitHub profile README repo (maxgier2026-cmyk/maxgier2026-cmyk) linking both ventures as a discoverability hub
+- Added 6th-12th grade supply lists to Pages (completes K-12 coverage): 6th, 7th, 8th, 9th, 10th, 11th, 12th grades
+- Added sitemap.xml to both venture Pages for search engine indexing
+- Updated meta title/description from "PreK-5th" to "PreK-12th" / "K-12"
+- Added sitemap link reference in HTML head
+- Pushed commits: V01 4658564, V02 f8dc66b, Profile 97fb1c7
+
+## Iteration 10 (2026-06-12T05:14:23-05:00)
+
+- Added "Classroom Funding Quick Guide" to GitHub Pages — 5 expandable sections: DonorsChoose.org, corporate sponsors/matching programs (Box Tops, Target Circle, Walmart, Kohl's Cares, DonorsChoose matches), PTA/PTO fundraising (supply drives, restaurant nights, wishlist registries, sponsorship tiers, teacher grants), grant writing tips (where to find grants, what reviewers want, follow-up), social media tips (Facebook, Nextdoor, Instagram, TikTok, what NOT to do)
+- Added "Frequently Asked Questions" section to Pages — 6 expandable Q&As: Is it really free? Who made this? Can I use the templates? How to share without feeling pushy? District fundraising rules? Customization?
+- Pushed commit 469dda2
+
+## Current GitHub traction (verified 2026-06-12T10:14 UTC)
 
 | Metric | Value | Status |
 |---|---:|---|
@@ -72,8 +95,8 @@ GitHub Pages: https://maxgier2026-cmyk.github.io/ai-classroom-supply-toolkit/ (H
 | Clones (14-day) | 0 | NO_TRAFFIC |
 | Topics | 8 | SINCE_ITERATION_1 |
 | License | MIT | SINCE_ITERATION_1 |
-| Files count | 16 | IMPROVED_ITERATION_7 |
-| GitHub Pages | LIVE | HTTP 200, verified 08:17 UTC |
+| Files count | 17 | IMPROVED_ITERATION_10 |
+| GitHub Pages | LIVE | HTTP 200, verified 10:14 UTC |
 
 Revenue: $0 verified (payment channel not yet verified)
 Expenses: $0
@@ -82,13 +105,13 @@ Net: $0
 
 ## Fair-test rule
 
-Do not declare dead before 48h live exposure plus one iteration (min 1 iteration met; now at 7). Deadline: 2026-06-13T23:44:42-05:00.
+Do not declare dead before 48h live exposure plus one iteration (min 1 iteration met; now at 10). Deadline: 2026-06-13T23:44:42-05:00.
 Next check: continue monitoring for traction; if no traction after 48h + iteration, evaluate fair-test conclusion per doctrine.
 
 ## Maintenance checklist
 
 - [x] Check repo visibility/availability — PUBLIC, accessible
-- [x] Check stars/watchers/issues/views/clones — 0 across all (verified 08:17 UTC)
+- [x] Check stars/watchers/issues/views/clones — 0 across all (verified 10:14 UTC)
 - [x] Improve discoverability (iteration 1) — LICENSE, topics, improved README
 - [x] Fix fabrication from prior run (iteration 2) — corrected elapsed time
 - [x] Add FAQ.md for keyword surface area (iteration 2)
@@ -101,6 +124,13 @@ Next check: continue monitoring for traction; if no traction after 48h + iterati
 - [x] Add grade-level supply lists (PreK-5th) to Pages (iteration 7)
 - [x] Add Schema.org structured data + SEO meta improvements (iteration 7)
 - [x] Add COMMUNITY_POST_TEMPLATES.md — Reddit, Facebook, Nextdoor drafts (iteration 7)
+- [x] Enable GitHub Discussions as buyer/inquiry surface (iteration 8)
+- [x] Create GitHub profile README as discoverability hub (iteration 9)
+- [x] Add 6th-12th grade supply lists to Pages, completing K-12 (iteration 9)
+- [x] Add sitemap.xml to both venture Pages for search indexing (iteration 9)
+- [x] Update meta title/description to reflect K-12 coverage (iteration 9)
+- [x] Add Classroom Funding Quick Guide to Pages (DonorsChoose, corporate, PTA, grants, social media) (iteration 10)
+- [x] Add FAQ section to Pages (6 expandable Q&As) (iteration 10)
 - [ ] If payment channel becomes available, list same product there before starting unrelated venture
 - [ ] If any buyer asks for customization, respond/fulfill same day only through compliant authorized channels
 - [ ] Lee to post community templates manually if/when he chooses — all currently READY_FOR_LEE_TO_POST
