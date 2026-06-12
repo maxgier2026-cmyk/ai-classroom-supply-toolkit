@@ -26,6 +26,7 @@ Most classroom supply requests are vague, disorganized, or use pressure tactics.
 | `product/LISTING_DRAFT.md` | Marketplace/listing copy if you want to offer this as a paid product |
 | `product/SAME_DAY_SERVICE_OFFER.md` | Custom-service pricing ladder for personalized campaign kits |
 | `proof/VENTURE_STATUS.md` | Experiment status, fair-test timeline, and revenue tracker |
+| `toolkit/donor-email-sequence.md` | Ready-to-adapt 5-email sequence for warm donors, sponsors, PTO coordination, follow-up, and thank-you updates |
 
 ## Quick peek at the templates
 
