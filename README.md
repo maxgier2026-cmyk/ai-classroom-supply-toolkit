@@ -29,6 +29,7 @@ Most classroom supply requests are vague, disorganized, or use pressure tactics.
 | `proof/VENTURE_STATUS.md` | Experiment status, fair-test timeline, and revenue tracker |
 | `toolkit/donor-email-sequence.md` | Ready-to-adapt 5-email sequence for warm donors, sponsors, PTO coordination, follow-up, and thank-you updates |
 | `toolkit/printable-one-page-drive-plan.md` | Printable one-page classroom supply drive plan and tracker |
+| `toolkit/pto-sponsor-one-sheet.md` | Local business / PTO sponsor request one-sheet with compliance guardrails and tracker |
 
 ## Quick peek at the templates
 
@@ -46,8 +47,9 @@ Plus: budget worksheet, outreach tracker, and a compliance self-check so you sta
 2. Read `product/AI_CLASSROOM_SUPPLY_TOOLKIT.md`
 3. Fill in your specific supply need, quantities, and authorized wishlist link
 4. Adapt the template that fits your audience
-5. Track responses in the included tracker table
-6. Send thank-you notes and keep updates privacy-safe
+5. If local sponsors are appropriate, adapt `toolkit/pto-sponsor-one-sheet.md`
+6. Track responses in the included tracker table
+7. Send thank-you notes and keep updates privacy-safe
 
 ## Customization services (same-day delivery)
 
