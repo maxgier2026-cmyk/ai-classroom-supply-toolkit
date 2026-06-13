@@ -31,6 +31,7 @@ Most classroom supply requests are vague, disorganized, or use pressure tactics.
 | `toolkit/printable-one-page-drive-plan.md` | Printable one-page classroom supply drive plan and tracker |
 | `toolkit/pto-sponsor-one-sheet.md` | Local business / PTO sponsor request one-sheet with compliance guardrails and tracker |
 | `toolkit/sponsor-outreach-kit-builder.md` | Fill-in sponsor kit builder: inputs, one-page structure, sponsor message, follow-up, tracker, compliance check |
+| `toolkit/teacher-grant-mini-kit.md` | Small classroom supply grant / local micro-grant narrative, budget table, impact statement, and compliance self-check |
 | `toolkit/fulfillment-checklist.md` | Internal same-day fulfillment checklist for paid or volunteer customization requests |
 
 ## Quick peek at the templates
@@ -50,8 +51,9 @@ Plus: budget worksheet, outreach tracker, and a compliance self-check so you sta
 3. Fill in your specific supply need, quantities, and authorized wishlist link
 4. Adapt the template that fits your audience
 5. If local sponsors are appropriate, adapt `toolkit/pto-sponsor-one-sheet.md` and `toolkit/sponsor-outreach-kit-builder.md`
-6. Track responses in the included tracker table
-7. Send thank-you notes and keep updates privacy-safe
+6. If a small grant or micro-grant is appropriate, adapt `toolkit/teacher-grant-mini-kit.md`
+7. Track responses in the included tracker table
+8. Send thank-you notes and keep updates privacy-safe
 
 ## Customization services (same-day delivery)
 
